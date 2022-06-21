@@ -1,0 +1,39 @@
+Constructors:
+  is a block of code that use to construct object.
+ Why we should them:
+  constructor help use initialize objects in cleaner and more readable way.
+  Advantage:
+  they are better than the methods because they called automatically when we create an object.
+  Most os the time fields are private because this reason we can not access them outside the class in which
+  they are declared and can not initialize them.
+ How I can use the constructor :
+  we create the constructor by writing a block of code that has same name as class name.
+  When we create the object of the that class is called automatically.
+ Rules:
+  1)constructor do not return types not even void.
+  2)constructor should have same name as class name.
+  3)constructor can have access modifiers like private public and protected.
+  4)constructor can not have non access modifiers like static final synchronized.
+  5)Default constructor is provided by java if we do not write one.
+  6)when we the object of a class then a constructor is called for example if the class
+  name is Dog Doge dog1=new Dog ();
+  7)we can create multiple constructor to give the other users flexibility that they
+  do not have to provide all the values to all the instance fields when creating an object of our the class.
+  8)we call the constructor of the class by using this keyword with parenthesis.
+  this() we can pass parameters and java will decide based on these parameters which constructors to call
+ "this" keyword:
+  whenever we have same name variables as instance variable and local variables this keyword can helps us resolve
+  the conflict between local and instance variables.
+  ==========================================================================================================
+What is inheritance:
+   It is a mechanism in Java through which we can get the properties and methods from the parent class
+   inside the child class
+Why we should use it:
+   It helps us reduce the amount of code that we have to write for example if there are some properties
+   and methods which are parent in many classes we can create a perant class for all of them
+   properties and can put the common properties or methods inside that parent class and can make childern
+   extendes from that parent class.
+How we can use it:
+   1) create aparent class.
+   2)put all the common methods and proptiers from childern class inside that class
+
