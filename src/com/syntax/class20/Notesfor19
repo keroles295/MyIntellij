@@ -1,0 +1,16 @@
+Inheritance:
+  is a mechanism in Java through which one class acquires the properties and methods of another class.
+  it is one of the main four pillars of OOPS
+Why we should to use it:
+  it helps us to reduce the amount of code that we have to write.
+  it is more efficient.
+  it saves memory
+How we can use it:
+  we can use the extends keyword after the class name and then the name of the class from which we want to inherit
+  the code.
+
+Types of Inheritance:
+  Different language support different types of inheritance but 5 of them are very common:
+  1)single
+  2)multiple leves
+  3)
