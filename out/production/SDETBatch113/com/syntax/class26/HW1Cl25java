@@ -1,0 +1,69 @@
+package com.syntax.class26;
+
+public class HW1Cl25WithA {
+    //Create a WebDriver Interface that will have the following unimplemented behaviour:
+    // openBrowser(), closeBrowser(), maximizeWindow(), findElement().
+    //Create 2 classes that implements WebDriver interface: ChromeDriver and FirefoxDriver.
+
+}
+interface WebDriver1 {
+    void openBrowser();
+    void closeBrowser();
+    void maximizeWindow();
+    void findElement();
+
+}
+class ChromeDriver1 implements WebDriver1 {
+    @Override
+    public void openBrowser() {
+        System.out.println("Open the Chrome browser");
+    }
+
+    @Override
+    public void closeBrowser() {
+        System.out.println("close the Chrome browser");
+    }
+
+    @Override
+    public void maximizeWindow() {
+        System.out.println("Maximize the Chrome browser");
+    }
+
+    @Override
+    public void findElement() {
+        System.out.println("find the element");
+    }
+}
+class FirefoxDriver1 implements WebDriver1 {
+    @Override
+    public void openBrowser() {
+        System.out.println("Open the FireFox browser");
+    }
+
+    @Override
+    public void closeBrowser() {
+        System.out.println("close the FireFox browser");
+    }
+
+    @Override
+    public void maximizeWindow() {
+        System.out.println("Maximize the FireFox browser");
+    }
+
+    @Override
+    public void findElement() {
+        System.out.println("Find the element the FireFox browser");
+    }
+}
+class test{
+    public static void main(String[] args) {
+        WebDriver1[] driver={new ChromeDriver1(), new FirefoxDriver1()};
+        for(WebDriver1 dr:driver){
+
+            dr.openBrowser();
+            dr.closeBrowser();
+            dr.maximizeWindow();
+            dr.findElement();
+        }
+    }
+}

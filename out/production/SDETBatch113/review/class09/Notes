@@ -1,0 +1,10 @@
+OOPS is just a way of writing code a methodology a set of result that we follow when we write a code. In this
+methodology we create classes and objects of these classes to represent everything from real life we also have:
+   1)functional programming
+   2)procedural programming
+
+Four Pillars of OOPS:
+  1)Inheritance
+  2)Polymorphism
+  3)Abstraction
+  4)Encapsulation
