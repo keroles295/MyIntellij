@@ -55,58 +55,46 @@ add (int x, int y )=> This part with the name of the method and its parameters i
 void add (int x, int y )header of the method
 =================================================================
 
-Types of Variables in Java:
-    There are 3 types of variable 1) local 2) instance 3) static
+Types of Variables in java:
+    There are 3 types of variables 1) local 2) instance 3) static
+Local:
+    if a variable is inside a method or a part of its parameters or a loop or switch statement or if else condition
+    it is called a local variable.
+Instance:
+    if a variable is inside the class but outside of any block of code like method loop
+    switch statement if else condition it is called an instance variable.
 
-    1) Local variable :
-
-    if a variable is inside a method || a part of its parameters || or a loop || switch statement ||
-    if else condition, it is called a local variable.
-
-    2) Instance variable:
-
-       If a variable is inside the class but outside of any block of code like method loop
-       switch statement if else condition it is called an instance variable.
-
-    3)static variable:
-
-    If an instance variable has a static keyword with it than it is called a static variable
-
-Why learn about different types of variable:
-    1)  it helps us reduce the amount of RAM
-        that our application will be using
-        when it will be running.
-
-    2)  We can pass information between methods of class with the help of these variables.
-
-    3)  They occupy the memory for the shortest period of time of time as soon as your method is done
-        executing they are destroyed by a special program called garbage collector
-
+static variable:
+    if an instance variable has a static keyword with it then it is called a static
+    variable
+Why learn about different types of variables:
+    1) it helps us reduce the amount of RAM that our application will be using when it will be
+    running.
+    2) With the help of these variables we can pass information between methods of class
+    3) Local variables occupy the memory for the shortest period of time as soon as your method is done
+    executing they are destroyed by a special program called garbage collector
 
 How to use these:
-    Local: Create inside block of code
+    Local: create inside block of code
 
-Advantages vs Disadvantages
+Advantages vs disadvantages
 
-                        Local variables
-advantages:     They occupy the memory for the shortest period of time
-                Always try to use local variables when possible to save memory
-
-disadvantages:  They are very limited in scope means we can't access them outside of method or the block
-                of scope.
-
-                        Instance variables:
-Advantages:     They have broader scope as compared to local variables means we can access
-                in all the methods of the class.
-
-Disadvantages:  They occupy the space in your RAm for longer periods of time.
-
-                        Static variables:
-Advantages:    1)  We can call static variables without creating an object of a class.
-               2)  We can share a single value between all the objects of a class.
-
-
+Local variables:
+Advantages:
+    They occupy the memory for the shortest period of time. Always try to use local
+    variables when possible to save memory.
 Disadvantages:
-                          Static variables:
-                1)They occupy the memory for longest period of time
-                2)They can only hold a single value for all the objects
+    They are very limited in scope means we can't access them outside of method or that block
+    of code.
+
+Instance variables:
+Advantages:
+    They have broader scope as compared to local variables, means we can access in all the methods
+    of that class.
+Disadvantages:
+    They occupy the space in your RAM for longer periods of time.
+
+static Variables:
+Advantages:
+    We can call static variables without creating an object of a class.
+    We can share a single variable between all the objects of a class
