@@ -1,4 +1,4 @@
-package com.syntax.java.project;
+package My.project;
 
 public class Task4Test {
     public static void main(String[] args) {
