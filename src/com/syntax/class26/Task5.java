@@ -10,7 +10,18 @@ public class Task5 {
             if(i%2==0){
                 numbers.add(i);
             }
+
         }
-        System.out.println(numbers.size());
+
+        System.out.println(numbers);
+
+      for(int y=0; y<=numbers.size(); y++){
+          if(numbers.get(y)%5==0){
+           numbers.remove(y);
+
+          }
+       }
+        System.out.println(numbers);
+
     }
 }
